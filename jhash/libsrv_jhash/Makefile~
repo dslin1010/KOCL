@@ -1,0 +1,7 @@
+
+all:
+	gcc -shared -fPIC -o libsrv_test.so libsrv.c -DDEBUG 
+	$(if $(BUILD_DIR), cp libsrv_test.so jhash_ker.cl $(BUILD_DIR)/ )
+
+clean:
+	rm -f *.o *.so
