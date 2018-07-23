@@ -6,8 +6,8 @@ scheme and the support of multiple devices for concurrent processing in KOCL to 
 
 
 ## How to use KOCL
-1. We develop KOCL on Ubuntu 16.04 with Linux kernel 4.7, OpneCL 2.0 for Intel Platform and OpenCL 1.2 for Nvidia Platform.
-In hardware, we use Intel i7-6700 CPU, Intel HD 530, Nvidia GTX 1080 Ti GPU and with 16GB Ram.
+1. We develop KOCL on Ubuntu 16.04 with Linux kernel 4.7, OpenCL 2.0 for Intel Platform and OpenCL 1.2 for Nvidia Platform.
+In hardware, we use Intel i7-6700 CPU, Intel HD 530 GPU, Nvidia GTX 1080 Ti GPU and with 16GB system ram.
 
 2. If you want to extend the platforms or devices, you should modify the `main.c helper.c and gpuops.c` file to fit your
 system.
@@ -45,9 +45,10 @@ sudo rmmod kocl
 Note: channel represent the target device you want to use. 
 
 
-`TeSheng Lin, <dslin1010@gmail.com>`
-`National Cheng Kung University of Taiwan and the ASRLab.` 
-
+```
+TeSheng Lin, <dslin1010@gmail.com>
+National Cheng Kung University of Taiwan and the ASRLab. 
+```
 
  
 
