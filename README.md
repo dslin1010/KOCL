@@ -45,7 +45,8 @@ sudo rmmod kocl
 Note: channel represent the target device you want to use. 
 
 
-TeSheng Lin,<dslin1010@gmail.com>
+TeSheng Lin, <dslin1010@gmail.com>
+National Cheng Kung University of Taiwan and the ASRLab. 
 
 
  
