@@ -1,4 +1,4 @@
-SUBDIRS = libsrv_gaes gaes_ecb callaes #ecryptfs_4.7_kocl ecryptfs_4.7_orig
+SUBDIRS = libsrv_gaes gaes_ecb callaes ecryptfs_4.7_kocl ecryptfs_4.7_orig
 
 all: $(SUBDIRS)
 

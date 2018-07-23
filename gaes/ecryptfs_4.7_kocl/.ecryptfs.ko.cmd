@@ -1,1 +1,0 @@
-cmd_/home/asruser04/KOCL_pub/gaes/ecryptfs_4.7_kocl/ecryptfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/asruser04/KOCL_pub/gaes/ecryptfs_4.7_kocl/ecryptfs.ko /home/asruser04/KOCL_pub/gaes/ecryptfs_4.7_kocl/ecryptfs.o /home/asruser04/KOCL_pub/gaes/ecryptfs_4.7_kocl/ecryptfs.mod.o
