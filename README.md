@@ -1,7 +1,7 @@
 # KOCL-Augmenting Operating Systems with OpenCL Accelerators
 
 KOCL is a general purpose framework for accelerating Linux kernel software with OpenCL accelerators,
-which is built by migrating the [KGPU](https://github.com/wbsun/kgpu) code to the OpenCL platforms.We further added the zero-copy 
+which is built by migrating the [KGPU](https://github.com/wbsun/kgpu) code to the OpenCL platforms. We further added the zero-copy 
 scheme and the support of multiple devices for concurrent processing in KOCL to take advantage of the OpenCL standard. 
 
 
